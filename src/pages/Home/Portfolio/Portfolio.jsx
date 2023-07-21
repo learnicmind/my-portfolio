@@ -1,6 +1,7 @@
 import rythmic from '../../../assets/images/rythmic.png'
 import toyWheelz from '../../../assets/images/toyWheelz.png'
 import chefHunter from '../../../assets/images/chefHunter.png'
+import learnopia from '../../../assets/images/learnopia.png'
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
@@ -59,6 +60,7 @@ const Portfolio = () => {
                                     </Link>
                                 </div>
                             </div>
+                            
                             <div >
                                 <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                                     <div className="h-96 w-72">
@@ -82,6 +84,30 @@ const Portfolio = () => {
                                     <Link to='https://github.com/learnicmind/chef-hunter-server'>
                                         <h2 className='font-bold text-slate-400 text-xl underline'>Server</h2>
                                     </Link>
+                                </div>
+                            </div>
+
+                            <div >
+                                <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                                    <div className="h-96 w-72">
+                                        <img className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded" src={learnopia} alt="" />
+                                    </div>
+                                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-teal-300 group-hover:from-teal-200 group-hover:via-black/60 group-hover:to-black/70"></div>
+                                    <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-2 text-center transition-all duration-500 group-hover:translate-y-0">
+                                        <h1 className="font-dmserif text-3xl font-bold text-black">Learnopia</h1>
+                                        <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Learnopia - Unleashing the power of knowledge through an immersive web experience, blending HTML, CSS, SCSS, and JS to fuel your learning journey. 
+                                        </p>
+                                        
+                                        <Link target='_blank' to='https://learnopiaa.netlify.app/'>
+                                            <button className='btn border-0 border-[#48a5af] border-r-4 border-b-4 hover:bg-[#111827] hover:border-[#59dae9] text-teal-400 hover:text-[#59dae9] bg-[#111827] mt-4'>Live Site</button>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className='flex justify-between mt-2'>
+                                    <Link target='_blank' to='https://github.com/learnicmind/learnopia'>
+                                        <h2 className='font-bold text-slate-400 text-xl underline'>GitHub</h2>
+                                    </Link>
+                                    
                                 </div>
                             </div>
                         </div>
